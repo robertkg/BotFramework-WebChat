@@ -570,7 +570,12 @@
         position: absolute;
         right: 0;
 
-        > .wc-upload,
+        > .wc-upload {
+            display: none;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
         > .wc-textbox,
         > .wc-send,
         > .wc-mic {

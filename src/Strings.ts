@@ -24,6 +24,21 @@ const localizedStrings: LocalizedStrings = {
     'en-us': {
         title: "Chat",
         send: "Send",
+        unknownFile: "[Fil av typen '%1']",
+        unknownCard: "[Ukjent Kort '%1']",
+        receiptVat: "MVA",
+        receiptTax: "Skatt",
+        receiptTotal: "Totalt",
+        messageRetry: "pr�v igjen",
+        messageFailed: "kunne ikke sende",
+        messageSending: "sender",
+        timeSent: " %1",
+        consolePlaceholder: "Skriv inn melding...",
+        listeningIndicator: "Lytter...",
+        uploadFile: "Last opp fil",
+        speak: "Snakk"
+        /*title: "Chat",
+        send: "Send",
         unknownFile: "[File of type '%1']",
         unknownCard: "[Unknown Card '%1']",
         receiptVat: "VAT",
@@ -33,10 +48,10 @@ const localizedStrings: LocalizedStrings = {
         messageFailed: "couldn't send",
         messageSending: "sending",
         timeSent: " at %1",
-        consolePlaceholder: "Type your message...",
+        consolePlaceholder: "Type your message... :D",
         listeningIndicator: "Listening...",
         uploadFile: "Upload file",
-        speak: "Speak"
+        speak: "Speak"*/
     },
     'ja-jp': {
         title: "チャット",
@@ -63,7 +78,7 @@ const localizedStrings: LocalizedStrings = {
         receiptVat: "MVA",
         receiptTax: "Skatt",
         receiptTotal: "Totalt",
-        messageRetry: "prøv igjen",
+        messageRetry: "pr�v igjen",
         messageFailed: "kunne ikke sende",
         messageSending: "sender",
         timeSent: " %1",
