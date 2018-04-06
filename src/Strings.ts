@@ -31,9 +31,9 @@ const localizedStrings: LocalizedStrings = {
         receiptTotal: "Totalt",
         messageRetry: "pr�v igjen",
         messageFailed: "kunne ikke sende",
-        messageSending: "sender",
+        messageSending: "sender...",
         timeSent: " %1",
-        consolePlaceholder: "Skriv inn melding...",
+        consolePlaceholder: "Skriv en melding...",
         listeningIndicator: "Lytter...",
         uploadFile: "Last opp fil",
         speak: "Snakk"
@@ -53,7 +53,7 @@ const localizedStrings: LocalizedStrings = {
         uploadFile: "Upload file",
         speak: "Speak"*/
     },
-    'ja-jp': {
+    /*'ja-jp': {
         title: "チャット",
         send: "送信",
         unknownFile: "[ファイルタイプ '%1']",
@@ -69,7 +69,7 @@ const localizedStrings: LocalizedStrings = {
         listeningIndicator: "聴いてます...",
         uploadFile: "",
         speak: ""
-    },
+    },*/
     'nb-no': {
         title: "Chat",
         send: "Send",
@@ -80,13 +80,13 @@ const localizedStrings: LocalizedStrings = {
         receiptTotal: "Totalt",
         messageRetry: "pr�v igjen",
         messageFailed: "kunne ikke sende",
-        messageSending: "sender",
+        messageSending: "sender...",
         timeSent: " %1",
-        consolePlaceholder: "Skriv inn melding...",
+        consolePlaceholder: "Skriv en melding...",
         listeningIndicator: "Lytter...",
         uploadFile: "",
         speak: ""
-    },
+    }/*
     'da-dk': {
         title: "Chat",
         send: "Send",
@@ -426,7 +426,7 @@ const localizedStrings: LocalizedStrings = {
         listeningIndicator: "A Escutar...",
         uploadFile: "",
         speak: ""
-   }
+   }*/
 }
 
 export const defaultStrings = localizedStrings['en-us'];

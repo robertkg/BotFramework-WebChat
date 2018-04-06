@@ -570,8 +570,8 @@
         position: absolute;
         right: 0;
 
-        > .wc-upload {
-            display: none;
+        > .wc-upload { 
+            display: none; // Skjul knapp for opplasting av filer -RKG
             position: absolute;
             left: 0px;
             top: 0px;
@@ -638,9 +638,10 @@
             visibility: hidden
         }
 
+        
         .wc-textbox {
             bottom: 0;
-            left: 48px;
+            left: 10px; // Venstrejuster tekstboks -RKG
             right: 49px;
 
             input {
