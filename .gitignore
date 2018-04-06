@@ -20,6 +20,5 @@ webpacked
 built
 CognitiveServices.js
 CognitiveServices.js.map
-*.css
 /test/uploads
 .env
